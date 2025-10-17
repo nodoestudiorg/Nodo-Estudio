@@ -2271,6 +2271,12 @@ background-position: center; /* o right, left, etc. */
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
 	}
+		@media (max-width: 768px) {
+  #one {
+    background: url("images/overlay.png"), url("../../images/onev.jpg");
+    background-size: 256px 256px, cover;
+    background-attachment: scroll, scroll; /* opcional: mejora el rendimiento en móviles */
+    background-position: top left, center;
 
 /* Two */
 
